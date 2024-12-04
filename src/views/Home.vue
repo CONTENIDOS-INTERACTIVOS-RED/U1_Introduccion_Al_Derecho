@@ -20,11 +20,12 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Fundamentos del Pensamiento Algorítmico
-              p.descripcion.mb-4 En esta primera unidad, se estudiarán los fundamentos esenciales del pensamiento algorítmico, destacando su rol en la resolución de problemas mediante el diseño de algoritmos estructurados. Además, se explorarán conceptos clave como los algoritmos, la lógica detrás de su construcción, y sus formas de representación a través de pseudocódigo y diagramas de flujo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 Prepárate para aplicar estos principios en diversas áreas, desde la informática hasta la administración y educación. #[strong ¡Inicia tu viaje para dominar la creación de soluciones eficientes y prácticas!]
+              p.home-main-title Introducción al derecho
+              h1.home-title.mb-4.text-uppercase Conceptos fundamentales del Derecho
+              p.descripcion.mb-4 Desde sus primeras manifestaciones, el Derecho ha sido una pieza clave en la organización de la convivencia humana y en la protección de los derechos y deberes de los individuos. Esta primera unidad se centra en comprender qué es el Derecho, su naturaleza y los elementos que lo constituyen, abordando su definición y función en la sociedad para garantizar el orden y la justicia. Además, exploraremos el Derecho como sistema normativo y la manera en que se interrelaciona con otras ciencias, para ofrecer un marco completo y detallado de su funcionamiento.
+                br
+                br
+                |#[b ¡Prepárese para descubrir las bases del Derecho y entender su importancia en la vida social!]
 
 
               .button-container.mt-auto
