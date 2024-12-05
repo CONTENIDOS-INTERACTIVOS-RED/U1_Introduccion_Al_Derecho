@@ -20,7 +20,7 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 1.',
         numero: '',
         titulo: 'Introducción',
         desarrolloContenidos: true,
@@ -28,68 +28,60 @@ export default {
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 1.',
         numero: '1',
-        titulo: 'Definición de algoritmo',
+        titulo: 'Definición de Derecho: naturaleza y objetivos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Sistema',
+            titulo: 'Naturaleza del Derecho',
             hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Pensamiento Sistémico o lógico',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Eficiencia de los algoritmos',
-            hash: 't_1_3',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 1.',
         numero: '2',
-        titulo: 'Lógica algorítmica: secuencias, condiciones, ciclos',
+        titulo: 'El Derecho como sistema normativo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Metodología para la solución de algoritmos',
+            titulo: 'El Derecho y su relación con otras ciencias',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Secuencias, condiciones, ciclos',
-            hash: 't_2_2',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 1.',
         numero: '3',
-        titulo:
-          'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+        titulo: 'Elementos esenciales del Derecho',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+            titulo: 'Objetos jurídicos',
             hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Los sujetos',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Prestación y garantía',
+            hash: 't_3_3',
           },
         ],
       },
@@ -117,11 +109,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -135,79 +122,101 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Buenaga Ceballos, O. (2017). Introducción al derecho y a las ciencias jurídicas: ( ed.). Dykinson.',
+      link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/58991',
+    },
+    {
+      referencia:
+        'Guerra Zúñiga, E. D. L. (2013). Introducción al derecho: ( ed.). Corporacion de Estudios y Publicaciones.',
+      link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/115029',
+    },
+    {
+      referencia:
+        'Nino, C. S. (2004). Introducción al análisis del derecho: (10 ed.). Editorial Ariel.',
+      link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/100166',
+    },
+    {
+      referencia:
+        'Parra Lucán, M. A. (2015). Cuaderno II: la norma jurídica y fuentes del derecho: ( ed.). Dykinson.',
+      link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/34318',
+    },
+    {
+      referencia:
+        'Villamar Cruz, V. (2018). Introducción al estudio del derecho: ( ed.). IURE Editores.',
+      link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/40257',
     },
   ],
   glosario: [
     {
-      termino: 'Algoritmo',
+      termino: 'Acto Jurídico',
       significado:
-        'secuencia de pasos lógicos, finitos que resuelven un problema particular.',
+        'manifestación de voluntad que produce efectos jurídicos, como la creación de derechos y obligaciones en un contrato.',
     },
     {
-      termino: 'Ciclos',
+      termino: 'Capacidad Jurídica',
       significado:
-        'conjunto de instrucciones de repetición que se llevan a cabo mientras se cumple una condición.',
+        'aptitud de una persona o entidad para adquirir y ejercer derechos, así como para asumir obligaciones.',
     },
     {
-      termino: 'Condiciones',
+      termino: 'Coerción',
       significado:
-        'etapa en la que el algoritmo debe tomar una decisión y según la respuesta obtenida continuará su proceso.',
+        'fuerza o poder que obliga a una persona a cumplir con las normas jurídicas, asegurando su cumplimiento.',
     },
     {
-      termino: 'Constante',
+      termino: 'Derecho',
       significado:
-        'es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.',
+        'conjunto de normas obligatorias que regulan las relaciones humanas en sociedad, asegurando la justicia y el orden social.',
     },
     {
-      termino: 'Diagrama de flujo',
+      termino: 'Derecho Natural',
       significado:
-        'representación gráfica de un proceso, ilustran paso a paso la lógica que debe seguir el programa de manera sencilla.',
+        'conjunto de normas universales y eternas que surgen de la naturaleza humana y que son descubiertas por la razón.',
     },
     {
-      termino: 'Eficiencia',
-      significado: 'seleccionar la manera óptima para resolver un problema.',
+      termino: 'Derecho Positivo',
+      significado:
+        'normas establecidas por una autoridad legítima que regulan las conductas en una sociedad específica.',
     },
     {
-      termino: 'Identificador',
+      termino: 'Garantía',
       significado:
-        'corresponde al nombre asignado a una variable en la memoria',
+        'elemento del Derecho que asegura el cumplimiento de una norma jurídica mediante coerción o sanciones.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Hecho Jurídico',
       significado:
-        'espacio reservado dentro del sistema que contiene un nombre y una variable',
+        'acontecimiento que produce efectos legales independientemente de la voluntad de las personas, como el nacimiento o la muerte.',
     },
     {
-      termino: 'Proceso',
+      termino: 'Norma Jurídica',
       significado:
-        'conjunto de instrucciones que "manipulan" los datos y entregan la solución al problema.',
+        'regla obligatoria que regula la conducta de los individuos en sociedad, cuyo incumplimiento puede generar sanciones.',
     },
     {
-      termino: 'Programa',
+      termino: 'Objeto Jurídico',
       significado:
-        '"Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico" (Von Neumann 1946)',
+        'cosa, bien, acción o conducta sobre la cual recaen los derechos y obligaciones de los sujetos jurídicos',
     },
     {
-      termino: 'Pseudocódigo',
+      termino: 'Prestación',
       significado:
-        'permite escribir de manera ordenada la secuencia de pasos lógicos que el algoritmo debe ejecutar, es universal lo que implica su comprensión y lectura sin requerirse un lenguaje de programación formal para su escritura',
+        'acción, abstención o entrega que el sujeto pasivo debe realizar en favor del sujeto activo dentro de una relación jurídica.',
     },
     {
-      termino: 'Secuencia',
+      termino: 'Sanción',
       significado:
-        'ejecución de instrucciones de manera ordenada y jerárquica, lineal, una tras otra y sin interrupción hasta su finalización',
+        'consecuencia desfavorable impuesta a quien incumple una norma jurídica, como multas o penas de cárcel.',
     },
     {
-      termino: 'Sistema',
+      termino: 'Sujeto Activo',
       significado:
-        'conjunto de elementos que tienen una relación directa entre sí y que interactúan de manera coordinada para obtener un objetivo específico',
+        'persona que tiene el derecho o la facultad de exigir algo de otra persona dentro de una relación jurídica.',
     },
     {
-      termino: 'Variable',
+      termino: 'Sujeto Pasivo',
       significado:
-        'diferente a la constante, la variable sí cambia "varía" su valor según los procedimientos que se lleven a cabo dentro del algoritmo.',
+        'persona obligada a cumplir una prestación en favor del sujeto activo.',
     },
   ],
   complementario: [],

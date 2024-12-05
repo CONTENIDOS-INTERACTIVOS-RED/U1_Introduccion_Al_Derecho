@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:titulo="'Unidad 2. Teorías y enfoques para la resolución pacífica de conflictos'" :subTitulo="'INTRODUCCIÓN'")
+    BannerInterno(:titulo="'Unidad 1. Conceptos fundamentales del Derecho'" :subTitulo="'INTRODUCCIÓN'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
       p.mb-4 Bienvenidos al curso Introducción al derecho y, para iniciar, conozcamos tres aspectos importantes que estudiaremos: 
       .mn.bg-slyder.p-5

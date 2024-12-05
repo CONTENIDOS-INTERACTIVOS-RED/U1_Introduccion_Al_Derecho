@@ -3,8 +3,10 @@
   BannerInterno(:titulo="'Unidad 1. Conceptos fundamentales del Derecho'" :subTitulo="'3. Elementos esenciales del Derecho'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
     p.mb-4 En los elementos esenciales del Derecho, encontramos los objetos jurídicos, los sujetos y la prestación y garantía. Conozcamos cada uno de ellos.
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Objetos jurídicos
+
+    #t_3_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.1] Objetos jurídicos
+
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
         .p-4(style="background-color:#e5f0f6 ").h-100
@@ -46,8 +48,8 @@
         .h5.mb-2 Bienes incorporales
         p Son aquellos que no tienen una existencia física, pero que son reconocidos por la ley, como los derechos de autor, las patentes o las acciones en una empresa.
     p.mb-4 Los bienes inmuebles, por ejemplo, pueden ser objeto de diversos derechos, como la propiedad, el usufructo o la hipoteca. Mientras que los bienes incorporales pueden ser cedidos, vendidos o licenciados, como ocurre con los derechos de autor. 
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.2 Los sujetos
+    #t_3_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.2] Los sujetos
     .bg-color-4.mb-5(data-aos="fade-up" style="background-color: #eef0f3 ")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -58,48 +60,53 @@
             img(src='@/assets/curso/temas/28.png', alt='')
     h3 Sujetos Jurídicos
     p.mb-4 Los sujetos jurídicos son las personas o entidades que tienen la capacidad de ser titulares de derechos y obligaciones dentro del sistema jurídico. En otras palabras, los sujetos jurídicos son aquellos que pueden participar en una relación jurídica, ya sea exigiendo el cumplimiento de un derecho o asumiendo una obligación. Existen dos tipos principales de sujetos jurídicos:
-    .mn.bg-slyder.p-5
-      SlyderA(tipo='b')
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/29.png', alt='')
-          .col-lg-7
-            h4 Personas naturales
-            p.mb-0 Las personas naturales son los seres humanos individuales. Desde el nacimiento y, en algunos casos, desde la concepción, las personas naturales son consideradas sujetos de derechos. Tienen la capacidad de adquirir derechos y obligaciones, lo que significa que pueden realizar actos jurídicos como firmar contratos, comprar bienes o demandar en un tribunal.
-              br
-              br
-              |El derecho a la vida, la libertad personal, la propiedad privada y el derecho a la educación, son ejemplos de derechos que poseen las personas naturales. También tienen responsabilidades, como el deber de cumplir con las leyes, pagar impuestos o respetar los derechos de los demás.
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/30.png', alt='')
-          .col-lg-7
-            p.mb-0 Las personas jurídicas son entidades creadas por el Derecho, para permitir que grupos de personas o instituciones actúen como un único sujeto jurídico. Estas entidades tienen una existencia legal separada de sus miembros, lo que les permite tener derechos y asumir obligaciones. Las personas jurídicas pueden ser:
-            .row.justify-content-center.align-items-center.mb-3
-              .col-auto
-                figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 Personas jurídicas de derecho público, como el Estado, los municipios o las entidades gubernamentales.
-            .row.justify-content-center.align-items-center.mb-3
-              .col-auto
-                figure
-                  img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
-              .col
-                p.mb-0 Personas jurídicas de derecho privado, como las empresas, asociaciones, fundaciones, y organizaciones no gubernamentales (ONG).
+    
+    
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo='b')
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/29.png', alt='')
+            .col-lg-7
+              h4 Personas naturales
+              p.mb-0 Las personas naturales son los seres humanos individuales. Desde el nacimiento y, en algunos casos, desde la concepción, las personas naturales son consideradas sujetos de derechos. Tienen la capacidad de adquirir derechos y obligaciones, lo que significa que pueden realizar actos jurídicos como firmar contratos, comprar bienes o demandar en un tribunal.
+                br
+                br
+                |El derecho a la vida, la libertad personal, la propiedad privada y el derecho a la educación, son ejemplos de derechos que poseen las personas naturales. También tienen responsabilidades, como el deber de cumplir con las leyes, pagar impuestos o respetar los derechos de los demás.
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/30.png', alt='')
+            .col-lg-7
+              p.mb-0 Las personas jurídicas son entidades creadas por el Derecho, para permitir que grupos de personas o instituciones actúen como un único sujeto jurídico. Estas entidades tienen una existencia legal separada de sus miembros, lo que les permite tener derechos y asumir obligaciones. Las personas jurídicas pueden ser:
+              .row.justify-content-center.align-items-center.mb-3
+                .col-auto
+                  figure
+                    img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+                .col
+                  p.mb-0 Personas jurídicas de derecho público, como el Estado, los municipios o las entidades gubernamentales.
+              .row.justify-content-center.align-items-center.mb-3
+                .col-auto
+                  figure
+                    img(src='@/assets/curso/temas/flecha.svg' alt='' style="width: 20px;")
+                .col
+                  p.mb-0 Personas jurídicas de derecho privado, como las empresas, asociaciones, fundaciones, y organizaciones no gubernamentales (ONG).
     p.mb-4 Las personas jurídicas pueden realizar casi todas las acciones que las personas naturales pueden, como poseer bienes, contratar, demandar y ser demandadas, entre otras. Por ejemplo, una empresa puede ser propietaria de inmuebles, contratar empleados, y debe cumplir con sus obligaciones fiscales y contractuales. 
     h4 Capacidad jurídica
-    p.mb-4 Tanto las personas naturales como las jurídicas, tienen capacidad jurídica, que es la facultad para ser titulares de derechos y obligaciones. Esta capacidad puede dividirse en dos tipos:
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6.mb-4(data-aos="zoom-in-up")
-        .custom-image-card.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/31.png" alt="")
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center Capacidad de goce
-            p.mb-0.text-center Es la aptitud para adquirir derechos y contraer obligaciones, y se obtiene automáticamente al nacer (o al constituirse en el caso de las personas jurídicas).
-      .col-lg-6.mb-4(data-aos="zoom-in-up")
-        .custom-image-card.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/32.png" alt="")
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center Capacidad de ejercicio
-            p.mb-0.text-center Es la facultad para ejercer los derechos y cumplir con las obligaciones, de manera autónoma. En el caso de las personas naturales, la capacidad de ejercicio generalmente se adquiere al alcanzar la mayoría de edad, mientras que las personas jurídicas la tienen desde el momento en que son legalmente constituidas.
+    .bg-full-width.bg-fondo-3
+      .px-4.px-md-5.pb-md-3
+        p.mb-4 Tanto las personas naturales como las jurídicas, tienen capacidad jurídica, que es la facultad para ser titulares de derechos y obligaciones. Esta capacidad puede dividirse en dos tipos:
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/31.png" alt="")
+              .custom-image-card__text.p-4
+                h4.mb-2.text-center Capacidad de goce
+                p.mb-0.text-center Es la aptitud para adquirir derechos y contraer obligaciones, y se obtiene automáticamente al nacer (o al constituirse en el caso de las personas jurídicas).
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/32.png" alt="")
+              .custom-image-card__text.p-4
+                h4.mb-2.text-center Capacidad de ejercicio
+                p.mb-0.text-center Es la facultad para ejercer los derechos y cumplir con las obligaciones, de manera autónoma. En el caso de las personas naturales, la capacidad de ejercicio generalmente se adquiere al alcanzar la mayoría de edad, mientras que las personas jurídicas la tienen desde el momento en que son legalmente constituidas.
     p.mb-4 Ahora bien, otros doctrinantes agrupan esta categoría en sujeto activo y pasivo, donde: 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -132,8 +139,8 @@
                   img(src="@/assets/curso/temas/35.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 Los sujetos y objetos jurídicos, son las bases sobre las que se construye cualquier relación jurídica. Los sujetos son las personas o entidades que participan en el sistema legal, y los objetos son las cosas, bienes, acciones o conductas sobre las que recaen sus derechos y obligaciones. Entender la diferencia entre ambos conceptos es esencial para comprender cómo funciona el Derecho en la vida diaria, debido a que estas relaciones determinan cómo interactuamos legalmente con otras personas y con los bienes o acciones a los que tenemos acceso, o sobre los cuales tenemos responsabilidades.
-    #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Prestación y garantía
+    #t_3_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.3] Prestación y garantía
     p.mb-4 El Derecho como sistema normativo, no solo busca establecer reglas, sino que estas reglas se apliquen de manera justa y coherente. Los cuatro elementos (sujeto activo, sujeto pasivo, prestación y garantía), trabajan en conjunto para que las personas sepan qué esperar de las demás, y para que, en caso de conflictos, existan mecanismos que permitan solucionarlos de manera pacífica y justa.
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
@@ -146,23 +153,50 @@
           .row.justify-content-end.mb-5
             .col-4: img(src='@/assets/curso/temas/37.svg', alt='')
     p.mb-4 La prestación es la acción o la abstención que el sujeto pasivo debe realizar en favor del sujeto activo. Esta prestación puede tomar diferentes formas, dependiendo del tipo de norma y situación. En el mundo del derecho, la prestación puede clasificarse de tres maneras:
-    .mn.bg-slyder.p-5
-      SlyderA(tipo='b')
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/37.png', alt='')
-          .col-lg-7
-            h4 Prestación de dar
-            p.mb-0 Ocurre cuando el sujeto pasivo está obligado a entregar algo. Un ejemplo cotidiano es cuando compramos un producto. La tienda está obligada a entregar el bien que adquirimos, y nosotros, como compradores, estamos obligados a pagar el precio acordado.
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/38.png', alt='')
-          .col-lg-7
-            h4 Prestación de hacer
-            p.mb-0 El sujeto pasivo debe realizar una acción específica. Imaginemos que contratamos a un pintor para que pinte nuestra casa. En este caso, la prestación del pintor sería pintar nuestra casa, una acción concreta que él debe cumplir en virtud del acuerdo.
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/39.png', alt='')
-          .col-lg-7
-            h4 Prestación de no hacer
-            p.mb-0 Se refiere a cuando alguien se compromete a abstenerse de realizar una acción. Por ejemplo, si firmamos un contrato con nuestro vecino para que no construya un muro que bloquee nuestra vista, la prestación del vecino sería no construir dicho muro. Es un compromiso de no hacer algo que podría afectar nuestros derechos.
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo='b')
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/37.png', alt='')
+            .col-lg-7
+              h4 Prestación de dar
+              p.mb-0 Ocurre cuando el sujeto pasivo está obligado a entregar algo. Un ejemplo cotidiano es cuando compramos un producto. La tienda está obligada a entregar el bien que adquirimos, y nosotros, como compradores, estamos obligados a pagar el precio acordado.
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/38.png', alt='')
+            .col-lg-7
+              h4 Prestación de hacer
+              p.mb-0 El sujeto pasivo debe realizar una acción específica. Imaginemos que contratamos a un pintor para que pinte nuestra casa. En este caso, la prestación del pintor sería pintar nuestra casa, una acción concreta que él debe cumplir en virtud del acuerdo.
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/39.png', alt='')
+            .col-lg-7
+              h4 Prestación de no hacer
+              p.mb-0 Se refiere a cuando alguien se compromete a abstenerse de realizar una acción. Por ejemplo, si firmamos un contrato con nuestro vecino para que no construya un muro que bloquee nuestra vista, la prestación del vecino sería no construir dicho muro. Es un compromiso de no hacer algo que podría afectar nuestros derechos.
+
+    .bg-full-width.bg-fondo-4
+      .px-4.px-md-5.pb-md-3
+        p(data-aos="fade-up") Es importante que cualquier prestación cumpla con ciertos requisitos: 
+
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-4.mb-4(data-aos="zoom-in-up")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/43.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Determinada
+                p.mb-0.text-center Clara y precisa.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/44.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Posible
+                p.mb-0.text-center Algo que se pueda cumplir 
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/45.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Lícita
+                p.mb-0.text-center No contraria a la ley y moralmente aceptable.
+
+
     p.mb-4 Así se garantiza que las obligaciones sean justas y realizables.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
@@ -177,7 +211,7 @@
           br
           |#[b Las sanciones que forman parte de la garantía pueden ser:]
       .col-lg-4.col-7: img(src='@/assets/curso/temas/41.png', alt='')
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/42.png', alt='')
       .col-lg-7
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")

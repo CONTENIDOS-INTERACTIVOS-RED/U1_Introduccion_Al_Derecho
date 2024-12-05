@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 2. Teorías y enfoques para la resolución pacífica de conflictos'" :subTitulo="'1. Teorías y enfoques para la resolución pacífica de conflictos'")
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
+  BannerInterno(:titulo="'Unidad 1. Conceptos fundamentales del Derecho'" :subTitulo="'1. Teorías y enfoques para la resolución pacífica de conflictos'")
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-0.pt-md-0.pb-0.overflow-hidden
     .bg-full-width.bg-color-2.mb-5(style="background-color: #efeadd ")
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
@@ -18,8 +18,10 @@
           .col-lg-5.col-7.mb-lg-0.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/4.png', alt='')
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 Naturaleza del Derecho
+
+    #t_1_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.1] Naturaleza del Derecho
+
     p.mb-4 La naturaleza del Derecho ha sido  objeto de múltiples debates, y diversas escuelas han tratado de explicar su origen y características fundamentales. Estas escuelas son:
     .row.justify-content-center.mb-4
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")

@@ -10,20 +10,22 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/7.png', alt='')
-    p.mb-4 En términos generales:
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6.mb-4(data-aos="zoom-in-up")
-        .custom-image-card.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/8.png" alt="")
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center ¿Qué es un sistema normativo?
-            p.mb-0.text-center Un sistema normativo es un conjunto estructurado de reglas que busca regular ciertos comportamientos o acciones dentro de un grupo social. En el caso del Derecho, estas normas están diseñadas para garantizar el orden, la justicia y la convivencia pacífica entre las personas. 
-      .col-lg-6.mb-4(data-aos="zoom-in-down")
-        .custom-image-card.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/9.png" alt="")
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center ¿Qué distingue al Derecho de otros sistemas normativos?
-            p.mb-0.text-center Lo que distingue al Derecho de otros sistemas normativos, como la Moral o las reglas de etiqueta, es su carácter coercitivo y su dependencia del Estado. Es decir, el Derecho no solo establece lo que las personas deben o no deben hacer, sino que, además, prevé mecanismos para hacer cumplir esas normas mediante sanciones que pueden incluir multas, penas privativas de la libertad o el uso de la fuerza pública.
+    .bg-full-width.bg-fondo-1
+      .px-4.px-md-5.pb-md-3
+        p.mb-4 En términos generales:
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/8.png" alt="")
+              .custom-image-card__text.p-4
+                h4.mb-2.text-center ¿Qué es un sistema normativo?
+                p.mb-0.text-center Un sistema normativo es un conjunto estructurado de reglas que busca regular ciertos comportamientos o acciones dentro de un grupo social. En el caso del Derecho, estas normas están diseñadas para garantizar el orden, la justicia y la convivencia pacífica entre las personas. 
+          .col-lg-6.mb-4(data-aos="zoom-in-down")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/9.png" alt="")
+              .custom-image-card__text.p-4
+                h4.mb-2.text-center ¿Qué distingue al Derecho de otros sistemas normativos?
+                p.mb-0.text-center Lo que distingue al Derecho de otros sistemas normativos, como la Moral o las reglas de etiqueta, es su carácter coercitivo y su dependencia del Estado. Es decir, el Derecho no solo establece lo que las personas deben o no deben hacer, sino que, además, prevé mecanismos para hacer cumplir esas normas mediante sanciones que pueden incluir multas, penas privativas de la libertad o el uso de la fuerza pública.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         p.mb-4 Dicho de otra manera, el Derecho no es un conjunto desorganizado de reglas, sino que funciona de manera jerárquica y coordinada. A nivel normativo, existe una jerarquía de normas donde la Constitución de cada país ocupa el lugar más alto, seguida de leyes, reglamentos, decretos y otras disposiciones normativas de menor rango. Esta estructura jerárquica permite que las normas de rango inferior, no puedan contradecir las de rango superior, lo que garantiza la coherencia interna del sistema jurídico. 
@@ -52,20 +54,23 @@
           .col-lg-8
             h4 Normas adjetivas
             p Son aquellas que establecen los procedimientos para hacer efectivos esos derechos, como las normas procesales que regulan cómo se debe llevar a cabo un juicio o cómo se deben presentar pruebas.
-    p.mb-4.fw-bold Asimismo, las normas pueden ser:
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6.mb-4(data-aos="zoom-in-up")
-        .custom-image-card.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/15.png" alt="")
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center Imperativas
-            p.mb-0.text-center Son aquellas que no permiten a las partes, modificarlas por acuerdo privado, como las leyes penales que establecen qué conductas son delitos y qué sanciones corresponden a cada uno 
-      .col-lg-6.mb-4(data-aos="zoom-in-up")
-        .custom-image-card.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/16.png" alt="")
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center Dispositivas
-            p.mb-0.text-center  Son aquellas que las personas pueden modificar mediante acuerdos privados, siempre que no contravengan el orden público, como ciertos aspectos de los contratos. 
+    
+    .bg-full-width.bg-fondo-2
+      .px-4.px-md-5.pb-md-3
+        p.mb-4.fw-bold Asimismo, las normas pueden ser:
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/15.png" alt="")
+              .custom-image-card__text.p-4
+                h4.mb-2.text-center Imperativas
+                p.mb-0.text-center Son aquellas que no permiten a las partes, modificarlas por acuerdo privado, como las leyes penales que establecen qué conductas son delitos y qué sanciones corresponden a cada uno 
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card.h-100
+              img.custom-image-card__image(src="@/assets/curso/temas/16.png" alt="")
+              .custom-image-card__text.p-4
+                h4.mb-2.text-center Dispositivas
+                p.mb-0.text-center  Son aquellas que las personas pueden modificar mediante acuerdos privados, siempre que no contravengan el orden público, como ciertos aspectos de los contratos. 
     p.mb-4 Es por ello que una de las características más relevantes del sistema normativo jurídico, es que tiende a funcionar como un sistema cerrado, es decir, las soluciones a los problemas jurídicos deben buscarse dentro del propio sistema normativo. Esto significa que cualquier vacío o ambigüedad en una norma, debe resolverse aplicando otras normas del mismo sistema, sin recurrir a fuentes externas. Este principio, sin embargo, no excluye la posibilidad que los jueces utilicen principios generales del Derecho, doctrina o jurisprudencia, para llenar los vacíos legales cuando las normas específicas no son suficientes. 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
@@ -89,45 +94,50 @@
               br
               br
               |Permite que las personas interactúen dentro de un marco de previsibilidad y protección de derechos.
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 El Derecho y su relación con otras ciencias 
+
+    #t_2_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.1] El Derecho y su relación con otras ciencias
+
     .row.align-items-center.mb-5
       .col-lg-auto.order-2
         img(src="@/assets/curso/temas/19.svg", style="max-width: 150px").mx-auto
       .col-lg-10
         p.mb-0 El Derecho, como una de las ciencias sociales más relevantes, no puede ser estudiado ni comprendido en aislamiento de otras disciplinas. Debido a que el Derecho regula las interacciones humanas dentro de un grupo social, su análisis requiere de una interacción constante con otras ciencias, que también se enfocan en el estudio de la conducta humana y social. #[b Entre estas disciplinas se encuentran la Moral, la Sociología, la Economía, la Psicología, y la Historia, todas con relaciones importantes que enriquecen y complementan el estudio y la práctica jurídica:]
-    .mn.bg-slyder.p-5
-      SlyderA(tipo='b')
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.png', alt='')
-          .col-lg-7
-            h4 Derecho y Moral
-            p.mb-0 La Moral y el Derecho son disciplinas normativas; es decir, ambas establecen reglas de conducta para los individuos que viven en sociedad. Sin embargo, aunque persiguen el mismo objetivo de orientar el comportamiento humano, son ciencias autónomas y con objetos diferentes. Mientras que la Moral  regula la conducta interna del individuo y busca su perfeccionamiento personal, el Derecho se ocupa de las relaciones interpersonales y regula la conducta externa, imponiendo reglas de convivencia y asegurando la justicia. Según Radbruch (1955), el Derecho se concentra en las consecuencias externas de los actos humanos, mientras que la Moral  valora las intenciones detrás de esas acciones. Además, el Derecho es coercible, lo que significa que sus normas pueden imponerse por la fuerza, mientras que la Moral no lo es, dependiendo únicamente de la conciencia del individuo y su disposición para cumplir con sus preceptos (Durkheim, 1922).
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/21.png', alt='')
-          .col-lg-7
-            h4 Derecho y Sociología
-            p.mb-0 La Sociología es la ciencia que estudia los fenómenos sociales y las interacciones entre los individuos en una sociedad. Al igual que el Derecho, la Sociología se enfoca en la realidad social, aunque lo hace desde una perspectiva más descriptiva y analítica. La Sociología analiza los hechos sociales y trata de descubrir las leyes que los rigen, mientras que el Derecho busca establecer normas que regulen esos hechos para garantizar el orden social. El sociólogo Émile Durkheim, definía la Sociología como el estudio de los hechos sociales como cosas, analizando sus causas y consecuencias, mientras que el jurista se enfoca en construir un sistema normativo que se adapte a las realidades sociales descubiertas por el sociólogo (Comte, 1875).
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.png', alt='')
-          .col-lg-7
-            h4 Derecho y Economía
-            p.mb-0 La Economía y el Derecho están profundamente interrelacionados, debido a que muchas normas jurídicas tienen como objetivo regular  la producción, distribución y consumo de bienes. La Economía estudia cómo los individuos y las sociedades utilizan los recursos escasos para satisfacer sus necesidades, y el Derecho proporciona el marco normativo que regula estas actividades económicas. Según la teoría marxista, el Derecho es una superestructura derivada de la base económica, es decir, que las normas jurídicas están determinadas en última instancia, por las condiciones económicas de la sociedad. Aunque esta postura ha sido matizada con el tiempo, es innegable que los sistemas jurídicos deben adaptarse a las realidades económicas para ser efectivos. Las relaciones entre el Derecho y la Economía, son evidentes en campos como el Derecho comercial, laboral y tributario, donde las normas jurídicas se estructuran para facilitar y regular las transacciones económicas.
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.png', alt='')
-          .col-lg-7
-            h4 Derecho y Psicología
-            p.mb-0 La Psicología estudia los fenómenos psíquicos y las motivaciones humanas, por lo que es fundamental para el Derecho en el análisis de comportamientos individuales en situaciones legales. Muchos aspectos del Derecho, como la responsabilidad penal y la capacidad para realizar actos jurídicos, se basan en la comprensión de los estados mentales y emocionales de los individuos. Por ejemplo, la Psicología juega un papel crucial en el análisis de eximentes como el estado de necesidad o la legítima defensa, en los cuales la conducta del individuo está influenciada por factores psicológicos, como el miedo o el estrés (Fingerman, 1973).
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/24.png', alt='')
-          .col-lg-7
-            h4 Derecho e Historia
-            p.mb-0 La Historia del Derecho analiza cómo han surgido y evolucionado los sistemas jurídicos a lo largo del tiempo. Esto es crucial para comprender el Derecho contemporáneo, puesto que muchas normas actuales son el resultado de procesos históricos que responden a las necesidades y cambios sociales. Según Radbruch (1955), el estudio del Derecho a lo largo de su historia, permite a los juristas extraer lecciones valiosas sobre la aplicación y la efectividad de las normas en diferentes contextos sociales. Además, el Derecho Comparado, que analiza los sistemas jurídicos de diferentes países y épocas, permite a los legisladores y juristas, adoptar las mejores prácticas para mejorar su propio sistema jurídico.
-        .row.p-5.bg-white
-          .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/25.png', alt='')
-          .col-lg-7
-            h4 Otras ciencias
-            p.mb-0 El Derecho también interactúa con otras ciencias más allá de las sociales. Ciencias como la Biología, la Química, la Física, la Lógica y las Matemáticas, colaboran en campos específicos del Derecho, como el Derecho Penal y la Criminalística, proporcionando herramientas y métodos para el análisis de pruebas y la resolución de casos. Por ejemplo, la Toxicología y la Balística son fundamentales en las investigaciones criminales para determinar las causas de muerte o la trayectoria de una bala, respectivamente.
+    
+    
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo='b')
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/20.png', alt='')
+            .col-lg-7
+              h4 Derecho y Moral
+              p.mb-0 La Moral y el Derecho son disciplinas normativas; es decir, ambas establecen reglas de conducta para los individuos que viven en sociedad. Sin embargo, aunque persiguen el mismo objetivo de orientar el comportamiento humano, son ciencias autónomas y con objetos diferentes. Mientras que la Moral  regula la conducta interna del individuo y busca su perfeccionamiento personal, el Derecho se ocupa de las relaciones interpersonales y regula la conducta externa, imponiendo reglas de convivencia y asegurando la justicia. Según Radbruch (1955), el Derecho se concentra en las consecuencias externas de los actos humanos, mientras que la Moral  valora las intenciones detrás de esas acciones. Además, el Derecho es coercible, lo que significa que sus normas pueden imponerse por la fuerza, mientras que la Moral no lo es, dependiendo únicamente de la conciencia del individuo y su disposición para cumplir con sus preceptos (Durkheim, 1922).
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/21.png', alt='')
+            .col-lg-7
+              h4 Derecho y Sociología
+              p.mb-0 La Sociología es la ciencia que estudia los fenómenos sociales y las interacciones entre los individuos en una sociedad. Al igual que el Derecho, la Sociología se enfoca en la realidad social, aunque lo hace desde una perspectiva más descriptiva y analítica. La Sociología analiza los hechos sociales y trata de descubrir las leyes que los rigen, mientras que el Derecho busca establecer normas que regulen esos hechos para garantizar el orden social. El sociólogo Émile Durkheim, definía la Sociología como el estudio de los hechos sociales como cosas, analizando sus causas y consecuencias, mientras que el jurista se enfoca en construir un sistema normativo que se adapte a las realidades sociales descubiertas por el sociólogo (Comte, 1875).
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.png', alt='')
+            .col-lg-7
+              h4 Derecho y Economía
+              p.mb-0 La Economía y el Derecho están profundamente interrelacionados, debido a que muchas normas jurídicas tienen como objetivo regular  la producción, distribución y consumo de bienes. La Economía estudia cómo los individuos y las sociedades utilizan los recursos escasos para satisfacer sus necesidades, y el Derecho proporciona el marco normativo que regula estas actividades económicas. Según la teoría marxista, el Derecho es una superestructura derivada de la base económica, es decir, que las normas jurídicas están determinadas en última instancia, por las condiciones económicas de la sociedad. Aunque esta postura ha sido matizada con el tiempo, es innegable que los sistemas jurídicos deben adaptarse a las realidades económicas para ser efectivos. Las relaciones entre el Derecho y la Economía, son evidentes en campos como el Derecho comercial, laboral y tributario, donde las normas jurídicas se estructuran para facilitar y regular las transacciones económicas.
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/23.png', alt='')
+            .col-lg-7
+              h4 Derecho y Psicología
+              p.mb-0 La Psicología estudia los fenómenos psíquicos y las motivaciones humanas, por lo que es fundamental para el Derecho en el análisis de comportamientos individuales en situaciones legales. Muchos aspectos del Derecho, como la responsabilidad penal y la capacidad para realizar actos jurídicos, se basan en la comprensión de los estados mentales y emocionales de los individuos. Por ejemplo, la Psicología juega un papel crucial en el análisis de eximentes como el estado de necesidad o la legítima defensa, en los cuales la conducta del individuo está influenciada por factores psicológicos, como el miedo o el estrés (Fingerman, 1973).
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/24.png', alt='')
+            .col-lg-7
+              h4 Derecho e Historia
+              p.mb-0 La Historia del Derecho analiza cómo han surgido y evolucionado los sistemas jurídicos a lo largo del tiempo. Esto es crucial para comprender el Derecho contemporáneo, puesto que muchas normas actuales son el resultado de procesos históricos que responden a las necesidades y cambios sociales. Según Radbruch (1955), el estudio del Derecho a lo largo de su historia, permite a los juristas extraer lecciones valiosas sobre la aplicación y la efectividad de las normas en diferentes contextos sociales. Además, el Derecho Comparado, que analiza los sistemas jurídicos de diferentes países y épocas, permite a los legisladores y juristas, adoptar las mejores prácticas para mejorar su propio sistema jurídico.
+          .row.p-5.bg-white
+            .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/25.png', alt='')
+            .col-lg-7
+              h4 Otras ciencias
+              p.mb-0 El Derecho también interactúa con otras ciencias más allá de las sociales. Ciencias como la Biología, la Química, la Física, la Lógica y las Matemáticas, colaboran en campos específicos del Derecho, como el Derecho Penal y la Criminalística, proporcionando herramientas y métodos para el análisis de pruebas y la resolución de casos. Por ejemplo, la Toxicología y la Balística son fundamentales en las investigaciones criminales para determinar las causas de muerte o la trayectoria de una bala, respectivamente.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .bg-color-1.p-4(data-aos="fade-left" style="background-color: #efeadd")

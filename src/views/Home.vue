@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title Introducción al derecho
-              h1.home-title.mb-4.text-uppercase Conceptos fundamentales del Derecho
+              p.home-main-title UNIDAD 1
+              h1.home-title.mb-4 Conceptos fundamentales del Derecho
               p.descripcion.mb-4 Desde sus primeras manifestaciones, el Derecho ha sido una pieza clave en la organización de la convivencia humana y en la protección de los derechos y deberes de los individuos. Esta primera unidad se centra en comprender qué es el Derecho, su naturaleza y los elementos que lo constituyen, abordando su definición y función en la sociedad para garantizar el orden y la justicia. Además, exploraremos el Derecho como sistema normativo y la manera en que se interrelaciona con otras ciencias, para ofrecer un marco completo y detallado de su funcionamiento.
                 br
                 br
@@ -62,7 +62,7 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
+    font-weight: bold
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title
