@@ -87,9 +87,9 @@
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="El Derecho como sistema normativo")
             p.mb-0 Es una estructura compleja y organizada de normas que regulan las conductas de las personas, en una sociedad.
-          div(titulo="El Derecho como sistema normativo")
+          div(titulo="Función del Derecho como sistema normativo")
             p.mb-0 Garantizar el orden, la justicia y la convivencia pacífica, mediante la imposición de reglas de comportamiento que son coercibles.
-          div(titulo="El Derecho como sistema normativo")
+          div(titulo="El Derecho como garante de la seguridad jurídica")
             p.mb-0 Es jerárquico, coherente y, en muchos casos, cerrado, lo que asegura que las normas sean aplicadas de manera sistemática y respeten una estructura legal, que tiene como norma suprema, la Constitución.
               br
               br
@@ -146,6 +146,25 @@
               img(src="@/assets/curso/temas/26.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Podemos concluir entonces que el estudio del Derecho está intrínsecamente ligado al conocimiento de otras ciencias. Sin una comprensión adecuada de disciplinas como la Moral, la Sociología, la Economía, la Psicología y la Historia, el Derecho, sería incapaz de adaptarse a las complejas realidades sociales a las que debe dar respuesta. De hecho, muchos de los avances más importantes en el desarrollo del Derecho, han surgido de la interacción con estas otras disciplinas, lo que ha permitido crear sistemas jurídicos más justos, eficaces y adaptados a las necesidades de la sociedad. Como lo menciona Bodenheimer (1994), el Derecho no puede ser un sistema cerrado; necesita nutrirse del conocimiento proporcionado por otras ciencias, para cumplir adecuadamente su función como regulador de la vida social.  
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/53460?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col" target="_blank" rel="noopener noreferrer") Zapatero, V (2008) El derecho como proceso normativo: lecciones de teoría del derecho. Editorial Universidad de Alcalá. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/FhJhQK8IlB4?si=mxIS_AO-4N9ElIsy" target="_blank" rel="noopener noreferrer") BCN Chile (20 de abril 2017) Acceso a la Información Jurídica, Certeza Jurídica y Ejercicio de Derechos
+              
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 </template>
 
 <script>

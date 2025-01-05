@@ -128,23 +128,14 @@ export default {
     },
     {
       referencia:
-        'Guerra Zúñiga, E. D. L. (2013). Introducción al derecho: ( ed.). Corporacion de Estudios y Publicaciones.',
-      link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/115029',
-    },
-    {
-      referencia:
         'Nino, C. S. (2004). Introducción al análisis del derecho: (10 ed.). Editorial Ariel.',
       link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/100166',
     },
     {
       referencia:
-        'Parra Lucán, M. A. (2015). Cuaderno II: la norma jurídica y fuentes del derecho: ( ed.). Dykinson.',
-      link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/34318',
-    },
-    {
-      referencia:
-        'Villamar Cruz, V. (2018). Introducción al estudio del derecho: ( ed.). IURE Editores.',
-      link: 'https://elbro.net/es/lc/tecnologicadeloriente/titulos/40257',
+        'Fernández, I (2018) Manual de Fundamentos de Derecho público y privado. Editorial: Difusora Larousse - Editorial Tecnos',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/123161?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col',
     },
   ],
   glosario: [

@@ -6,7 +6,7 @@
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
-            h2.mb-4(data-aos="flip-up") Concepto de Derecho
+            h2.mb-4(data-aos="flip-up") Definición de Derecho: naturaleza y objetivos
             p.mb-4(data-aos="fade-right") El Derecho, entendido como un sistema normativo que regula la conducta humana y garantiza la justicia en la sociedad, ha sido objeto de múltiples interpretaciones a lo largo de la historia. Desde su origen etimológico en el latín directus, que significa "enderezar" o "conducir", se evidencia su función orientadora hacia lo correcto y lo justo. Diversos filósofos y juristas, como Kant y Celso, han aportado visiones que resaltan tanto su carácter normativo como su dimensión coercitiva, subrayando su papel esencial en la protección de derechos y la imposición de deberes. A continuación, en el PDF Concepto de Derecho,  se profundiza en estas perspectivas para ofrecer una comprensión integral del Derecho y su relevancia en la organización social.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
@@ -65,6 +65,23 @@
             .col-lg
               p.mb-0 En conclusión, la naturaleza del Derecho ha sido abordada desde múltiples perspectivas, a lo largo de la historia. El Iusnaturalismo defiende la existencia de un Derecho universal basado en la naturaleza humana, mientras que el Historicismo y el Positivismo, ofrecen enfoques más contextuales y formales, respectivamente. Por último, el Marxismo considera al Derecho como un reflejo de las estructuras de poder y explotación en la sociedad. Cada una de estas escuelas ha contribuido de manera significativa a la comprensión del Derecho, mostrando la riqueza y complejidad de esta disciplina.     
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/113111/?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col" target="_blank" rel="noopener noreferrer") Zajac, A (2001) Derecho (2a. ed.) Editorial Maipue 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/aTwx08sxoog?si=SxWeWxdmI9-sg6D1" target="_blank" rel="noopener noreferrer") Jacq (19 de marzo de 2020) Concepto de derecho
+              
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     
 </template>
 

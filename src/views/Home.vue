@@ -23,9 +23,8 @@
               p.home-main-title UNIDAD 1
               h1.home-title.mb-4 Conceptos fundamentales del Derecho
               p.descripcion.mb-4 Desde sus primeras manifestaciones, el Derecho ha sido una pieza clave en la organización de la convivencia humana y en la protección de los derechos y deberes de los individuos. Esta primera unidad se centra en comprender qué es el Derecho, su naturaleza y los elementos que lo constituyen, abordando su definición y función en la sociedad para garantizar el orden y la justicia. Además, exploraremos el Derecho como sistema normativo y la manera en que se interrelaciona con otras ciencias, para ofrecer un marco completo y detallado de su funcionamiento.
-                br
-                br
-                |#[b ¡Prepárese para descubrir las bases del Derecho y entender su importancia en la vida social!]
+              p Profundizaremos en las distintas corrientes que han estudiado su naturaleza, desde el Iusnaturalismo hasta el Positivismo, permitiéndote conocer cómo y por qué el Derecho se ha concebido de diversas formas a lo largo de la historia. Asimismo, entenderemos los sujetos y objetos jurídicos, y cómo estos elementos esenciales estructuran las relaciones legales.
+              p #[b ¡Prepárese para descubrir las bases del Derecho y entender su importancia en la vida social!]
 
 
               .button-container.mt-auto
