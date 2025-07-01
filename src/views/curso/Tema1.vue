@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 1. Conceptos fundamentales del Derecho'" :subTitulo="'1. Teorías y enfoques para la resolución pacífica de conflictos'")
+  BannerInterno(:titulo="'Unidad 1. Conceptos fundamentales del Derecho'" :subTitulo="'1. Definición de Derecho: naturaleza y objetivos'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-0.pt-md-0.pb-0.overflow-hidden
     .bg-full-width.bg-color-2.mb-5(style="background-color: #efeadd ")
       .px-4.p-md-5

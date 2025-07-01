@@ -85,6 +85,13 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        unidad: 'UNIDAD 1.',
+        numero: '',
+        titulo: 'Síntesis',
+      },
     ],
     subMenu: [
       // {
